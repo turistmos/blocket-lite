@@ -1,0 +1,21 @@
+﻿@model ItemViewModel
+
+ <tbody>
+                    @* skriver ut alla items från sql-databas *@
+
+                @foreach (var t in Model.ItemList)
+                {
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="@t.image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">@t.title</h5>
+                                <h1>@t.price kr</h1>
+                                <p class="card-text">@t.description</p>
+                            </div>
+                            </div>
+
+                }
+            </tbody>
+
+
+

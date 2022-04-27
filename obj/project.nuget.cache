@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XcrZoUQi0dmmDxFT0y5IaGih9l6ts2daHA+R4XIr7n8t/1eu0urk4mZCcr4zwXsenzk3ox1j2gKc3bW+8tHNDw==",
+  "success": true,
+  "projectFilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/blocket-lite.csproj",
+  "expectedPackageFiles": [
+    "/Users/fredrikalm/.nuget/packages/microsoft.data.sqlite/6.0.4/microsoft.data.sqlite.6.0.4.nupkg.sha512",
+    "/Users/fredrikalm/.nuget/packages/microsoft.data.sqlite.core/6.0.4/microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
+    "/Users/fredrikalm/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.6/sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/fredrikalm/.nuget/packages/sqlitepclraw.core/2.0.6/sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "/Users/fredrikalm/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/fredrikalm/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/fredrikalm/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
