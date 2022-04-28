@@ -2,10 +2,24 @@
 
  <tbody>
                     @* skriver ut alla items från sql-databas *@
+                <div class="btn-group">
+                    <form method="post" asp-action="Show_all" asp-controller="Home">
+                        <input type="submit"  id="form-button" value="Visa allt" class="btn-btn-primary" />
+                    </form>
+                    <form method="post" asp-action="Show_clothes" asp-controller="Home">
+                        <input type="submit"  id="form-button" value="Visa kläder" class="btn-btn-primary" />
+                    </form>
+                    <form method="post" asp-action="Show_vehicles" asp-controller="Home">
+                        <input type="submit"  id="form-button" value="Visa bilar" class="btn-btn-primary" />
+                    </form>
+                </div>
 
+                
+
+                
                 @foreach (var t in Model.ItemList)
                 {
-                            <div class="card" style="width: 20rem;">
+                            <div class="card" style="width: 25rem;">
                                 <img class="card-img-top" src="@t.image" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">@t.title</h5>
@@ -16,6 +30,7 @@
 
                 }
             </tbody>
+
 
 
 

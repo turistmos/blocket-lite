@@ -10,22 +10,38 @@ namespace blocket_lite.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
+    public static string filter;
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
 
+    public RedirectResult Show_clothes()
+    {
+     filter="cloths";
+     return Redirect("https://localhost:7296/Home/Index");
+    }
+      public RedirectResult Show_vehicles()
+    {
+     filter="vehicles";
+     return Redirect("https://localhost:7296/Home/Index");
+    }
+       public RedirectResult Show_all()
+    {
+     filter="all";
+     return Redirect("https://localhost:7296/Home/Index");
+    }
     public IActionResult Index()
     {
         // hämtar alla objekt i databasen 
-        var itemListModel = GetAllItems();
+        var itemListModel = GetAllItems(filter);
         return View(itemListModel);
     }
 
     public IActionResult Privacy()
     {
         return View();
+        
     }
 
     public IActionResult AddNewProduct()
@@ -38,6 +54,7 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
 
     //Lägger in values från formulär till databasen.
      public RedirectResult Insert(ItemModel product)
@@ -90,7 +107,7 @@ public class HomeController : Controller
        return Redirect("https://localhost:7296/");
    }
    //hämtar alla produkter från databasen till en lista.
-   internal ItemViewModel GetAllItems()
+   internal ItemViewModel GetAllItems(string filter)
     {
         List<ItemModel> itemList = new();
 
@@ -100,8 +117,18 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
+                if(filter=="cloths")
+                {
+                tableCmd.CommandText= "SELECT * FROM products3 WHERE category = 'cloths'";
+                }
+                else if(filter=="vehicles")
+                {
+                    tableCmd.CommandText= "SELECT * FROM products3 WHERE category = 'vehicle'";
+                }
+                else
+                {
                 tableCmd.CommandText= "SELECT * FROM products3 ORDER BY price";
-
+                }
                 using (var reader = tableCmd.ExecuteReader())
                 {
                     if(reader.HasRows)
@@ -135,5 +162,7 @@ public class HomeController : Controller
             ItemList= itemList
         };
     }
+
+
 }
 
