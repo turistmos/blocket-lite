@@ -20,18 +20,18 @@ public class HomeController : Controller
 
     public RedirectResult Show_clothes()
     {
-     filter="cloths";
-     return Redirect("https://localhost:7296/Home/Index");
+        filter = "cloths";
+        return Redirect("https://localhost:7296/Home/Index");
     }
-      public RedirectResult Show_vehicles()
+    public RedirectResult Show_vehicles()
     {
-     filter="vehicles";
-     return Redirect("https://localhost:7296/Home/Index");
+        filter = "vehicles";
+        return Redirect("https://localhost:7296/Home/Index");
     }
-       public RedirectResult Show_all()
+    public RedirectResult Show_all()
     {
-     filter="all";
-     return Redirect("https://localhost:7296/Home/Index");
+        filter = "all";
+        return Redirect("https://localhost:7296/Home/Index");
     }
     public IActionResult Index()
     {
@@ -43,7 +43,7 @@ public class HomeController : Controller
     public IActionResult Privacy()
     {
         return View();
-        
+
     }
 
     public IActionResult AddNewProduct()
@@ -74,126 +74,125 @@ public class HomeController : Controller
 
 
     //Lägger in values från formulär till databasen.
-     public RedirectResult Insert(ItemModel product)
-   {
-       if(product.category=="vehicle")
-       {
-        using (SqliteConnection con = 
-       new SqliteConnection("Data Source=db.sqlite"))
-       {
-           using (var tableCmd = con.CreateCommand())
-           {
-               con.Open();
-               tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.miles}','{product.year}','{product.color}')";
-               try
-               {
-                   tableCmd.ExecuteNonQuery();
-               }
-               catch (Exception ex)
-               {
-                   
-                   Console.WriteLine(ex.Message);
-               }
-           }
-       }
-       }
-       else if (product.category=="cloths")
-       {
-          {
-        using (SqliteConnection con = 
-       new SqliteConnection("Data Source=db.sqlite"))
-       {
-           using (var tableCmd = con.CreateCommand())
-           {
-               con.Open();
-               tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.gender}','{product.size}','{product.color}')";
-               try
-               {
-                   tableCmd.ExecuteNonQuery();
-               }
-               catch (Exception ex)
-               {
-                   
-                   Console.WriteLine(ex.Message);
-               }
-           }
-       }
-       } 
-       }
-       
-       return Redirect("https://localhost:7296/");
-   }
-   //hämtar alla produkter från databasen till en lista.
-   internal ItemViewModel GetAllItems(string filter)
+    public RedirectResult Insert(ItemModel product)
+    {
+        if (product.category == "vehicle")
+        {
+            using (SqliteConnection con =
+           new SqliteConnection("Data Source=db.sqlite"))
+            {
+                using (var tableCmd = con.CreateCommand())
+                {
+                    con.Open();
+                    tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.miles}','{product.year}','{product.color}')";
+                    try
+                    {
+                        tableCmd.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+
+                        Console.WriteLine(ex.Message);
+                    }
+                }
+            }
+        }
+        else if (product.category == "cloths")
+        {
+            {
+                using (SqliteConnection con =
+               new SqliteConnection("Data Source=db.sqlite"))
+                {
+                    using (var tableCmd = con.CreateCommand())
+                    {
+                        con.Open();
+                        tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.gender}','{product.size}','{product.color}')";
+                        try
+                        {
+                            tableCmd.ExecuteNonQuery();
+                        }
+                        catch (Exception ex)
+                        {
+
+                            Console.WriteLine(ex.Message);
+                        }
+                    }
+                }
+            }
+        }
+
+        return Redirect("https://localhost:7296/");
+    }
+    //hämtar alla produkter från databasen till en lista.
+    internal ItemViewModel GetAllItems(string filter)
     {
         List<ItemModel> itemList = new();
 
-        using (SqliteConnection con = 
+        using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                if(filter=="cloths")
+                if (filter == "cloths")
                 {
-                tableCmd.CommandText= "SELECT * FROM products3 WHERE category = 'cloths'";
+                    tableCmd.CommandText = "SELECT * FROM products3 WHERE category = 'cloths'";
                 }
-                else if(filter=="vehicles")
+                else if (filter == "vehicles")
                 {
-                    tableCmd.CommandText= "SELECT * FROM products3 WHERE category = 'vehicle'";
+                    tableCmd.CommandText = "SELECT * FROM products3 WHERE category = 'vehicle'";
                 }
                 else
                 {
-                tableCmd.CommandText= "SELECT * FROM products3 ORDER BY price";
+                    tableCmd.CommandText = "SELECT * FROM products3 ORDER BY price";
                 }
                 using (var reader = tableCmd.ExecuteReader())
                 {
-                    if(reader.HasRows)
+                    if (reader.HasRows)
                     {
                         while (reader.Read())
                         {
                             itemList.Add(
                                 new ItemModel
                                 {
-                                    category= reader.GetString(0),
-                                    title= reader.GetString(1),
+                                    category = reader.GetString(0),
+                                    title = reader.GetString(1),
                                     price = reader.GetInt32(2),
                                     description = reader.GetString(3),
                                     image = reader.GetString(9)
                                 });
                         }
                     }
-                    else 
+                    else
                     {
                         return new ItemViewModel
                         {
-                            ItemList=itemList
+                            ItemList = itemList
                         };
                     }
                 };
             }
         }
 
-        return new ItemViewModel 
+        return new ItemViewModel
         {
-            ItemList= itemList
+            ItemList = itemList
         };
     }
     //sparar ned ett hashat lösen till databasen
     public RedirectResult UserInsert(UsersModel user)
     {
-        
-            //Generate a cryptographic random number.
+
+        //Generate a cryptographic random number.
         RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
         byte[] buff = new byte[16];
         rng.GetBytes(buff);
         string salt = Convert.ToBase64String(buff);
-        
+
 
         byte[] data = Encoding.ASCII.GetBytes(user.password + salt);
         data = new SHA256Managed().ComputeHash(data);
         String hash = Encoding.ASCII.GetString(data);
-
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
@@ -244,7 +243,7 @@ public class HomeController : Controller
                 };
             }
         }
-        
+
 
         for (int i = 0; i < userList.Count; i++)
         {
@@ -259,7 +258,7 @@ public class HomeController : Controller
                 {
                     return Redirect("https://localhost:7296/home/userLoginSuccess");
                 }
-                
+
             }
         }
 
