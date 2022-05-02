@@ -16296,7 +16296,6 @@
     "CSharpLanguageVersion": 1000
   },
   "RootNamespace": "blocket_lite",
-<<<<<<< HEAD
   "Documents": [
     {
       "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/AddNewProduct.cshtml",
@@ -16324,6 +16323,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/UserLoginSuccess.cshtml",
+      "TargetPath": "Views\\Home\\UserLoginSuccess.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/register.cshtml",
+      "TargetPath": "Views\\Home\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16339,8 +16353,5 @@
       "FileKind": "mvc"
     }
   ],
-=======
-  "Documents": [],
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
   "SerializationFormat": "0.2"
 }

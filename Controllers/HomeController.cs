@@ -6,7 +6,7 @@ using blocket_lite.Models.ProductViewModel;
 using System.Security.Cryptography;
 using System.Text;
 
-
+//1', '2', '3','4','5','6','7'); DELETE FROM products3 WHERE price='0'; --
 namespace blocket_lite.Controllers;
 
 public class HomeController : Controller
@@ -76,6 +76,20 @@ public class HomeController : Controller
     //Lägger in values från formulär till databasen.
     public RedirectResult Insert(ItemModel product)
     {
+
+        string txt_category = product.category;
+        string txt_title = product.title;
+        int txt_price = product.price;
+        string txt_description = product.description;
+        int txt_miles = product.miles;
+        int txt_year = product.year;
+        string txt_color = product.color;
+        string txt_size = product.size;
+        string txt_gender = product.gender;
+        string txt_image = product.image;
+
+
+
         if (product.category == "vehicle")
         {
             using (SqliteConnection con =
@@ -83,8 +97,23 @@ public class HomeController : Controller
             {
                 using (var tableCmd = con.CreateCommand())
                 {
+                    string txtSQL = "INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES (@0,@1,@2,@3,@4,@5,@6,@7)";
+
+                    
                     con.Open();
-                    tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.miles}','{product.year}','{product.color}')";
+
+                    tableCmd.CommandText = txtSQL;
+
+                    tableCmd.Parameters.AddWithValue("@0", txt_category);
+                    tableCmd.Parameters.AddWithValue("@1", txt_title);
+                    tableCmd.Parameters.AddWithValue("@2", txt_price);
+                    tableCmd.Parameters.AddWithValue("@3", txt_description);
+                    tableCmd.Parameters.AddWithValue("@4", txt_image);
+                    tableCmd.Parameters.AddWithValue("@5", txt_miles);
+                    tableCmd.Parameters.AddWithValue("@6", txt_year);
+                    tableCmd.Parameters.AddWithValue("@7", txt_color);
+
+                    
                     try
                     {
                         tableCmd.ExecuteNonQuery();
@@ -105,8 +134,18 @@ public class HomeController : Controller
                 {
                     using (var tableCmd = con.CreateCommand())
                     {
+                        string txtSQL = "INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES (@0,@1,@2,@3,@4,@5,@6,@7)";
                         con.Open();
-                        tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.gender}','{product.size}','{product.color}')";
+                        tableCmd.Parameters.AddWithValue("@0", txt_category);
+                        tableCmd.Parameters.AddWithValue("@1", txt_title);
+                        tableCmd.Parameters.AddWithValue("@2", txt_price);
+                        tableCmd.Parameters.AddWithValue("@3", txt_description);
+                        tableCmd.Parameters.AddWithValue("@4", txt_image);
+                        tableCmd.Parameters.AddWithValue("@5", txt_gender);
+                        tableCmd.Parameters.AddWithValue("@6", txt_size);
+                        tableCmd.Parameters.AddWithValue("@7", txt_color);
+
+                        
                         try
                         {
                             tableCmd.ExecuteNonQuery();
@@ -120,6 +159,52 @@ public class HomeController : Controller
                 }
             }
         }
+
+        // if (product.category == "vehicle")
+        // {
+        //     using (SqliteConnection con =
+        //    new SqliteConnection("Data Source=db.sqlite"))
+        //     {
+        //         using (var tableCmd = con.CreateCommand())
+        //         {
+                    
+        //             con.Open();
+        //             tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.miles}','{product.year}','{product.color}')";
+        //             try
+        //             {
+        //                 tableCmd.ExecuteNonQuery();
+        //             }
+        //             catch (Exception ex)
+        //             {
+
+        //                 Console.WriteLine(ex.Message);
+        //             }
+        //         }
+        //     }
+        // }
+        // else if (product.category == "cloths")
+        // {
+        //     {
+        //         using (SqliteConnection con =
+        //        new SqliteConnection("Data Source=db.sqlite"))
+        //         {
+        //             using (var tableCmd = con.CreateCommand())
+        //             {
+        //                 con.Open();
+        //                 tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.gender}','{product.size}','{product.color}')";
+        //                 try
+        //                 {
+        //                     tableCmd.ExecuteNonQuery();
+        //                 }
+        //                 catch (Exception ex)
+        //                 {
+
+        //                     Console.WriteLine(ex.Message);
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
 
         return Redirect("https://localhost:7296/");
     }
@@ -193,13 +278,27 @@ public class HomeController : Controller
         byte[] data = Encoding.ASCII.GetBytes(user.password + salt);
         data = new SHA256Managed().ComputeHash(data);
         String hash = Encoding.ASCII.GetString(data);
+
+        string txt_user = user.username;
+        string txt_hash = hash;
+        string txt_salt = salt;
+        string txtSQL = "INSERT INTO users (username,password,salt) Values(@0,@1,@2)";
+
+
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = $"INSERT INTO users (username, password, salt) VALUES ('{user.username}','{hash}','{salt}')";
+
+
+                tableCmd.CommandText = txtSQL;
+
+                tableCmd.Parameters.AddWithValue("@0", txt_user);
+                tableCmd.Parameters.AddWithValue("@1", txt_hash);
+                tableCmd.Parameters.AddWithValue("@2", txt_salt);
+
                 try
                 {
                     tableCmd.ExecuteNonQuery();
@@ -211,6 +310,7 @@ public class HomeController : Controller
                 }
             }
         }
+
         return Redirect("https://localhost:7296/home");
     }
     //Jämför användarna i databasen med i
