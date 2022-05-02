@@ -23,10 +23,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
+=======
+[/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+>>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
 [/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
+=======
+[/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Home/UserLoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Vc2VyTG9naW5TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+>>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
 [/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

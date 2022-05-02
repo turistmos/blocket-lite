@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -18,3 +19,25 @@
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.4" />
   </ItemGroup>
 </Project>
+=======
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>blocket_lite</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\addProduct.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.Data.Sqlite.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.4" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.4" />
+  </ItemGroup>
+</Project>
+>>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
