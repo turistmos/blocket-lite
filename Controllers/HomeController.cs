@@ -182,10 +182,17 @@ public class HomeController : Controller
     //sparar ned ett hashat lösen till databasen
     public RedirectResult UserInsert(UsersModel user)
     {
+        
+            //Generate a cryptographic random number.
+        RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
+        byte[] buff = new byte[16];
+        rng.GetBytes(buff);
+        string salt = Convert.ToBase64String(buff);
+        
 
-        byte[] data = System.Text.Encoding.ASCII.GetBytes(user.password);
-        data = new System.Security.Cryptography.SHA256Managed().ComputeHash(data);
-        String hash = System.Text.Encoding.ASCII.GetString(data);
+        byte[] data = Encoding.ASCII.GetBytes(user.password + salt);
+        data = new SHA256Managed().ComputeHash(data);
+        String hash = Encoding.ASCII.GetString(data);
 
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
@@ -193,7 +200,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = $"INSERT INTO users (username, password) VALUES ('{user.username}','{hash}')";
+                tableCmd.CommandText = $"INSERT INTO users (username, password, salt) VALUES ('{user.username}','{hash}','{salt}')";
                 try
                 {
                     tableCmd.ExecuteNonQuery();
@@ -229,22 +236,30 @@ public class HomeController : Controller
                                 new UsersModel
                                 {
                                     username = reader.GetString(0),
-                                    password = reader.GetString(1)
+                                    password = reader.GetString(1),
+                                    salt = reader.GetString(2)
                                 });
                         }
                     }
                 };
             }
         }
-        //omvandlar login-fältet till en hash
-        byte[] data = System.Text.Encoding.ASCII.GetBytes(userLogin.password);
-        data = new System.Security.Cryptography.SHA256Managed().ComputeHash(data);
-        String hash = System.Text.Encoding.ASCII.GetString(data);
+        
+
         for (int i = 0; i < userList.Count; i++)
         {
-            if (userList[i].password == hash && userLogin.username == userList[i].username)
+            if (userLogin.username == userList[i].username)
             {
-                return Redirect("https://localhost:7296/home/userLoginSuccess");
+                //omvandlar pswd login-fältet till en hash
+                byte[] data = Encoding.ASCII.GetBytes(userLogin.password + userList[i].salt);
+                data = new SHA256Managed().ComputeHash(data);
+                String hash = Encoding.ASCII.GetString(data);
+
+                if (userList[i].password == hash)
+                {
+                    return Redirect("https://localhost:7296/home/userLoginSuccess");
+                }
+                
             }
         }
 
