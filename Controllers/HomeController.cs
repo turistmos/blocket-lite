@@ -3,11 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using blocket_lite.Models;
 using blocket_lite.Models.ProductViewModel;
-<<<<<<< HEAD
-=======
 using System.Security.Cryptography;
 using System.Text;
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
 
 
 namespace blocket_lite.Controllers;
@@ -23,20 +20,6 @@ public class HomeController : Controller
 
     public RedirectResult Show_clothes()
     {
-<<<<<<< HEAD
-     filter="cloths";
-     return Redirect("https://localhost:7296/Home/Index");
-    }
-      public RedirectResult Show_vehicles()
-    {
-     filter="vehicles";
-     return Redirect("https://localhost:7296/Home/Index");
-    }
-       public RedirectResult Show_all()
-    {
-     filter="all";
-     return Redirect("https://localhost:7296/Home/Index");
-=======
         filter = "cloths";
         return Redirect("https://localhost:7296/Home/Index");
     }
@@ -49,7 +32,6 @@ public class HomeController : Controller
     {
         filter = "all";
         return Redirect("https://localhost:7296/Home/Index");
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
     }
     public IActionResult Index()
     {
@@ -61,11 +43,7 @@ public class HomeController : Controller
     public IActionResult Privacy()
     {
         return View();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
     }
 
     public IActionResult AddNewProduct()
@@ -73,8 +51,6 @@ public class HomeController : Controller
         return View();
     }
 
-<<<<<<< HEAD
-=======
     public IActionResult register()
     {
         return View();
@@ -90,7 +66,6 @@ public class HomeController : Controller
 
 
 
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
@@ -99,63 +74,6 @@ public class HomeController : Controller
 
 
     //Lägger in values från formulär till databasen.
-<<<<<<< HEAD
-     public RedirectResult Insert(ItemModel product)
-   {
-       if(product.category=="vehicle")
-       {
-        using (SqliteConnection con = 
-       new SqliteConnection("Data Source=db.sqlite"))
-       {
-           using (var tableCmd = con.CreateCommand())
-           {
-               con.Open();
-               tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.miles}','{product.year}','{product.color}')";
-               try
-               {
-                   tableCmd.ExecuteNonQuery();
-               }
-               catch (Exception ex)
-               {
-                   
-                   Console.WriteLine(ex.Message);
-               }
-           }
-       }
-       }
-       else if (product.category=="cloths")
-       {
-          {
-        using (SqliteConnection con = 
-       new SqliteConnection("Data Source=db.sqlite"))
-       {
-           using (var tableCmd = con.CreateCommand())
-           {
-               con.Open();
-               tableCmd.CommandText = $"INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES ('{product.category}','{product.title}','{product.price}','{product.description}','{product.image}','{product.gender}','{product.size}','{product.color}')";
-               try
-               {
-                   tableCmd.ExecuteNonQuery();
-               }
-               catch (Exception ex)
-               {
-                   
-                   Console.WriteLine(ex.Message);
-               }
-           }
-       }
-       } 
-       }
-       
-       return Redirect("https://localhost:7296/");
-   }
-   //hämtar alla produkter från databasen till en lista.
-   internal ItemViewModel GetAllItems(string filter)
-    {
-        List<ItemModel> itemList = new();
-
-        using (SqliteConnection con = 
-=======
     public RedirectResult Insert(ItemModel product)
     {
         if (product.category == "vehicle")
@@ -211,29 +129,11 @@ public class HomeController : Controller
         List<ItemModel> itemList = new();
 
         using (SqliteConnection con =
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
         new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-<<<<<<< HEAD
-                if(filter=="cloths")
-                {
-                tableCmd.CommandText= "SELECT * FROM products3 WHERE category = 'cloths'";
-                }
-                else if(filter=="vehicles")
-                {
-                    tableCmd.CommandText= "SELECT * FROM products3 WHERE category = 'vehicle'";
-                }
-                else
-                {
-                tableCmd.CommandText= "SELECT * FROM products3 ORDER BY price";
-                }
-                using (var reader = tableCmd.ExecuteReader())
-                {
-                    if(reader.HasRows)
-=======
                 if (filter == "cloths")
                 {
                     tableCmd.CommandText = "SELECT * FROM products3 WHERE category = 'cloths'";
@@ -249,52 +149,31 @@ public class HomeController : Controller
                 using (var reader = tableCmd.ExecuteReader())
                 {
                     if (reader.HasRows)
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
                     {
                         while (reader.Read())
                         {
                             itemList.Add(
                                 new ItemModel
                                 {
-<<<<<<< HEAD
-                                    category= reader.GetString(0),
-                                    title= reader.GetString(1),
-=======
                                     category = reader.GetString(0),
                                     title = reader.GetString(1),
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
                                     price = reader.GetInt32(2),
                                     description = reader.GetString(3),
                                     image = reader.GetString(9)
                                 });
                         }
                     }
-<<<<<<< HEAD
-                    else 
-                    {
-                        return new ItemViewModel
-                        {
-                            ItemList=itemList
-=======
                     else
                     {
                         return new ItemViewModel
                         {
                             ItemList = itemList
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
                         };
                     }
                 };
             }
         }
 
-<<<<<<< HEAD
-        return new ItemViewModel 
-        {
-            ItemList= itemList
-        };
-    }
-=======
         return new ItemViewModel
         {
             ItemList = itemList
@@ -386,7 +265,6 @@ public class HomeController : Controller
         return Redirect("https://localhost:7296/home/");
     }
 
->>>>>>> ff36e440a3c6581372b6a50ca99e6ad71581237f
 
 
 }
