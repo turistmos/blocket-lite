@@ -77,19 +77,6 @@ public class HomeController : Controller
     public RedirectResult Insert(ItemModel product)
     {
 
-        // string txt_category = product.category;
-        // string txt_title = product.title;
-        // int txt_price = product.price;
-        // string txt_description = product.description;
-        // int txt_miles = product.miles;
-        // int txt_year = product.year;
-        // string txt_color = product.color;
-        // string txt_size = product.size;
-        // string txt_gender = product.gender;
-        // string txt_image = product.image;
-
-
-
         if (product.category == "vehicle")
         {
             using (SqliteConnection con =
