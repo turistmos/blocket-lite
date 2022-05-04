@@ -13,10 +13,7 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     public static string filter;
-<<<<<<< HEAD
-=======
     public static string userLoggedIn;
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -66,10 +63,7 @@ public class HomeController : Controller
     public IActionResult userLoginSuccess()
     {
         return View();
-<<<<<<< HEAD
-=======
         ViewBag.user = userLoggedIn;
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
     }
 
 
@@ -92,11 +86,7 @@ public class HomeController : Controller
             {
                 using (var tableCmd = con.CreateCommand())
                 {
-<<<<<<< HEAD
-                    string txtSQL = "INSERT INTO products3 (category,title,price,description,image,miles,year,color) VALUES (@0,@1,@2,@3,@4,@5,@6,@7)";
-=======
                     string txtSQL = "INSERT INTO products4 (category,title,price,description,image,miles,year,color,username) VALUES (@0,@1,@2,@3,@4,@5,@6,@7,@8)";
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
 
 
                     con.Open();
@@ -111,10 +101,7 @@ public class HomeController : Controller
                     tableCmd.Parameters.AddWithValue("@5", product.miles);
                     tableCmd.Parameters.AddWithValue("@6", product.year);
                     tableCmd.Parameters.AddWithValue("@7", product.color);
-<<<<<<< HEAD
-=======
                     tableCmd.Parameters.AddWithValue("@8", userLoggedIn);
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
 
 
                     try
@@ -271,10 +258,7 @@ public class HomeController : Controller
     //Jämför användarna i databasen med i
     public RedirectResult UserLogin(UsersModel userLogin)
     {
-<<<<<<< HEAD
-=======
         userLoggedIn = userLogin.username;
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
         List<UsersModel> userList = new();
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
