@@ -37,7 +37,6 @@ namespace blocket_lite.Models
             public string image {get;set;}
 
 
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
 
     }
 
