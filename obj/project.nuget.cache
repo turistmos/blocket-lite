@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XcrZoUQi0dmmDxFT0y5IaGih9l6ts2daHA+R4XIr7n8t/1eu0urk4mZCcr4zwXsenzk3ox1j2gKc3bW+8tHNDw==",
+  "dgSpecHash": "MGWL7oKhEOY0l1KF1uFLTqprbrRB3B4+G5s+E6+ERjJE40+y/SO8xJbeBiv1C1TvFXejEoB0s3N6GjjEykKkpA==",
   "success": true,
-  "projectFilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/blocket-lite.csproj",
+  "projectFilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
   "expectedPackageFiles": [
     "/Users/fredrikalm/.nuget/packages/microsoft.data.sqlite/6.0.4/microsoft.data.sqlite.6.0.4.nupkg.sha512",
     "/Users/fredrikalm/.nuget/packages/microsoft.data.sqlite.core/6.0.4/microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
@@ -12,12 +12,5 @@
     "/Users/fredrikalm/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
     "/Users/fredrikalm/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

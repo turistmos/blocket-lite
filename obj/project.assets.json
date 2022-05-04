@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/blocket-lite.csproj",
+      "projectUniqueName": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
       "projectName": "blocket-lite",
-      "projectPath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/blocket-lite.csproj",
+      "projectPath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
       "packagesPath": "/Users/fredrikalm/.nuget/packages/",
-      "outputPath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/",
+      "outputPath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fredrikalm/.nuget/NuGet/NuGet.Config"
@@ -346,13 +346,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
