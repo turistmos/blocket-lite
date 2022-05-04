@@ -17,6 +17,7 @@ namespace blocket_lite.Models
             public string gender {get;set;}
             
             public string image {get;set;}
+            public string username { get; set; }
 
 
 

@@ -39,8 +39,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home"
                                 asp-action="Register">Register</a>
                         </li>
-                        <li class="me-auto">
-                            <p>@ViewBag.user</p>
+                        <li class="nav-item">
+                            <p class="nav-link text-dark">@ViewBag.user</p>
+                        </li>
+                        <li class="nav-item d-flex">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="MyProducts">Mina produkter</a>
                         </li>
                     </ul>
                 </div>
