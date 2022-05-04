@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
+      "projectUniqueName": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/blocket-lite.csproj",
       "projectName": "blocket-lite",
-      "projectPath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
+      "projectPath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/blocket-lite.csproj",
       "packagesPath": "/Users/fredrikalm/.nuget/packages/",
-      "outputPath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/obj/",
+      "outputPath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fredrikalm/.nuget/NuGet/NuGet.Config"

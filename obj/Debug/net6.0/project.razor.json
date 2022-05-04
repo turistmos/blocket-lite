@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
+  "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/blocket-lite.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,57 +16298,57 @@
   "RootNamespace": "blocket_lite",
   "Documents": [
     {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Home/UserLoginSuccess.cshtml",
-      "TargetPath": "Views\\Home\\UserLoginSuccess.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Home/AddNewProduct.cshtml",
-      "TargetPath": "Views\\Home\\AddNewProduct.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Home/Login.cshtml",
-      "TargetPath": "Views\\Home\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Home/register.cshtml",
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Home/register.cshtml",
       "TargetPath": "Views\\Home\\register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/Views/Home/Index.cshtml",
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Home/Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Home/AddNewProduct.cshtml",
+      "TargetPath": "Views\\Home\\AddNewProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Home/UserLoginSuccess.cshtml",
+      "TargetPath": "Views\\Home\\UserLoginSuccess.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }

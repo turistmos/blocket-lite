@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "bLKDCk6m6qiur9sYSiA1mqqMmcTzrtP8R+KCf0BVlh0=",
-=======
-  "Hash": "dFYI1Z5ffUy1/3sX4+jtuB5g8rZrt1OqdDeXqm8CeSI=",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+  "Hash": "FAf8hfjNiRO+bNcIPZL+qe/xiCcnCotJrdMRDGYkgik=",
   "Source": "blocket-lite",
   "BasePath": "_content/blocket-lite",
   "Mode": "Default",
@@ -12,32 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-<<<<<<< HEAD
       "Name": "blocket-lite/wwwroot",
       "Source": "blocket-lite",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "Name": "blocket-lite\\wwwroot",
-      "Source": "blocket-lite",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/Debug/net6.0/scopedcss/bundle/blocket-lite.styles.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/Debug/net6.0/scopedcss/bundle/blocket-lite.styles.css",
       "SourceId": "blocket-lite",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/Debug/net6.0/scopedcss/bundle/",
-=======
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blocket-lite.styles.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Computed",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "blocket-lite.styles.css",
       "AssetKind": "All",
@@ -48,23 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/Debug/net6.0/scopedcss/bundle/blocket-lite.styles.css"
+      "OriginalItemSpec": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/Debug/net6.0/scopedcss/bundle/blocket-lite.styles.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/Debug/net6.0/scopedcss/projectbundle/blocket-lite.bundle.scp.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/Debug/net6.0/scopedcss/projectbundle/blocket-lite.bundle.scp.css",
       "SourceId": "blocket-lite",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/Debug/net6.0/scopedcss/projectbundle/",
-=======
-      "OriginalItemSpec": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blocket-lite.styles.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\blocket-lite.bundle.scp.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Computed",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "blocket-lite.bundle.scp.css",
       "AssetKind": "All",
@@ -75,23 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/obj/Debug/net6.0/scopedcss/projectbundle/blocket-lite.bundle.scp.css"
+      "OriginalItemSpec": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/obj/Debug/net6.0/scopedcss/projectbundle/blocket-lite.bundle.scp.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/css/site.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/css/site.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\blocket-lite.bundle.scp.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\css\\site.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -102,23 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/favicon.ico",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/favicon.ico",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\favicon.ico",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -129,23 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/js/site.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/js/site.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\js\\site.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -156,27 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
-=======
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,27 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -214,27 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -243,27 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -272,27 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -301,27 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -330,27 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -359,27 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,27 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -417,27 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -446,27 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -475,27 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -504,27 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -533,27 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -562,27 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -591,27 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -620,27 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -649,27 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -678,27 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -707,27 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -736,27 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -765,27 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -794,27 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -823,27 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -852,27 +507,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,27 +524,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -910,27 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -939,27 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -968,27 +575,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -997,27 +592,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1026,27 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1055,27 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1084,23 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1111,23 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1138,23 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1165,23 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1192,23 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1219,23 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1246,23 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1273,23 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1300,23 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1327,23 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1354,23 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1381,23 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1408,23 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1435,27 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery/dist/jquery.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1464,27 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1493,27 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1522,27 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery/LICENSE.txt",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1551,27 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1580,27 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1609,27 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1638,27 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1667,27 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery/dist/jquery.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1696,27 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1725,27 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1754,27 +1051,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "blocket-lite",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite/blocket-lite/blocket-lite/wwwroot/",
+      "ContentRoot": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/wwwroot/",
       "BasePath": "_content/blocket-lite",
       "RelativePath": "lib/jquery/LICENSE.txt",
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Identity": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "blocket-lite",
-      "SourceType": "Discovered",
-      "ContentRoot": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite\\blocket-lite-main\\wwwroot\\",
-      "BasePath": "_content/blocket-lite",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1783,11 +1068,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
-=======
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
->>>>>>> 256fcd39770a7cc752b2a7f95a1d90ea11c40761
     }
   ]
 }

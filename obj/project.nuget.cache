@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MGWL7oKhEOY0l1KF1uFLTqprbrRB3B4+G5s+E6+ERjJE40+y/SO8xJbeBiv1C1TvFXejEoB0s3N6GjjEykKkpA==",
+  "dgSpecHash": "PAAD8Pdkg1bLiFbYnqYC7hPvA+/rvZdXbgUtGZd6mO1RGuLoqZnt/oS36EwJAOLKuMJw28YHR5GNxJgG7xk9Hg==",
   "success": true,
-  "projectFilePath": "/Users/fredrikalm/Projects/Lia 1/blocketliteNY/blocket-lite/blocket-lite.csproj",
+  "projectFilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/blocket-lite.csproj",
   "expectedPackageFiles": [
     "/Users/fredrikalm/.nuget/packages/microsoft.data.sqlite/6.0.4/microsoft.data.sqlite.6.0.4.nupkg.sha512",
     "/Users/fredrikalm/.nuget/packages/microsoft.data.sqlite.core/6.0.4/microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
