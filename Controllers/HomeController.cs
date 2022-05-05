@@ -487,37 +487,49 @@ public class HomeController : Controller
             {
                 con.Open();
                 tableCmd.CommandText = "SELECT * FROM " + userLoggedIn;
-                using (var reader = tableCmd.ExecuteReader())
+                try
                 {
-                    if (reader.HasRows)
+                    using (var reader = tableCmd.ExecuteReader())
                     {
-                        while (reader.Read())
+                        if (reader.HasRows)
                         {
-                            userLikedItems.Add(
-                                new ItemModel
-                                {
-                                    category = reader.GetString(0),
-                                    title = reader.GetString(1),
-                                    price = reader.GetInt32(2),
-                                    description = reader.GetString(3),
-                                    image = reader.GetString(4),
-                                    ProductID = reader.GetInt32(5)
+                            while (reader.Read())
+                            {
+                                userLikedItems.Add(
+                                    new ItemModel
+                                    {
+                                        category = reader.GetString(0),
+                                        title = reader.GetString(1),
+                                        price = reader.GetInt32(2),
+                                        description = reader.GetString(3),
+                                        image = reader.GetString(4),
+                                        ProductID = reader.GetInt32(5)
 
-                                });
+                                    });
+                            }
                         }
-                    }
-                    else
-                    {
-                        return new ItemViewModel
+                        else
                         {
-                            userLikedItems = userLikedItems
-                        };
-                    }
-                };
-                return new ItemViewModel
+                            return new ItemViewModel
+                            {
+                                userLikedItems = userLikedItems
+                            };
+                        }
+                    };
+                    return new ItemViewModel
+                    {
+                        userLikedItems = userLikedItems
+                    };
+
+                }
+                catch
                 {
-                    userLikedItems = userLikedItems
-                };
+                    return new ItemViewModel
+                    {
+                        userLikedItems = userLikedItems
+                    };
+                }
+               
             }
         }
 
