@@ -16,8 +16,10 @@ namespace blocket_lite.Models
             public string size {get;set;}
             public string gender {get;set;}
             
-            public string image {get;set;}
+            public string image { get; set; }
             public string username { get; set; }
+
+            public int ProductID { get; set; }
 
 
 

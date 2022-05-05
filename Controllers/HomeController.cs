@@ -202,7 +202,9 @@ public class HomeController : Controller
                                     title = reader.GetString(1),
                                     price = reader.GetInt32(2),
                                     description = reader.GetString(3),
-                                    image = reader.GetString(9)
+                                    image = reader.GetString(9),
+                                    ProductID = reader.GetInt32(11)
+                                    
                                 });
                         }
                     }
@@ -265,6 +267,7 @@ public class HomeController : Controller
                 }
             }
         }
+        //skapar ett nytt table för varje användare
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
@@ -274,10 +277,10 @@ public class HomeController : Controller
                 con.Open();
 
 
-                tableCmd.CommandText = "CREATE TABLE " + user.username + "(productID INTEGER);";
+                tableCmd.CommandText = "CREATE TABLE " + user.username + "(category TEXT, title TEXT, price INTEGER, description TEXT,image TEXT, ProductID INTEGER);";
 
                 try
-                {
+                { 
                     tableCmd.ExecuteNonQuery();
                 }
                 catch (Exception ex)
@@ -367,7 +370,9 @@ public class HomeController : Controller
                                     title = reader.GetString(1),
                                     price = reader.GetInt32(2),
                                     description = reader.GetString(3),
-                                    image = reader.GetString(9)
+                                    image = reader.GetString(9),
+                                    ProductID = reader.GetInt32(11)
+
                                 });
                         }
                     }
@@ -390,7 +395,8 @@ public class HomeController : Controller
 
 
     }
-    internal ItemViewModel itemsLikedByUser()
+    //lägger till items i tablet 
+    public RedirectResult itemsLikedByUser(int id)
     {
         List<ItemModel> likedItems = new();
         using (SqliteConnection con =
@@ -399,7 +405,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "SELECT * FROM products4 WHERE username ='" + userLoggedIn + "'";
+                tableCmd.CommandText = "SELECT * FROM products4 WHERE ProductID ='" + id + "'";
                 using (var reader = tableCmd.ExecuteReader())
                 {
                     if (reader.HasRows)
@@ -413,28 +419,58 @@ public class HomeController : Controller
                                     title = reader.GetString(1),
                                     price = reader.GetInt32(2),
                                     description = reader.GetString(3),
-                                    image = reader.GetString(9)
+                                    image = reader.GetString(9),
+                                    ProductID = reader.GetInt32(11)
                                 });
                         }
                     }
                     else
                     {
-                        return new ItemViewModel
-                        {
-                            userItemList = likedItems
-                        };
+                        return Redirect("https://localhost:7296/home");
                     }
                 };
-                return new ItemViewModel
-                {
-                    userItemList = likedItems
-                };
+                
+                
+                 
+                
             }
 
         }
+        using (SqliteConnection con =
+          new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                string txtSQL = "INSERT INTO "+ userLoggedIn+ " (category,title,price,description,image,ProductID) VALUES (@0,@1,@2,@3,@4,@5)";
+
+
+                con.Open();
+
+                tableCmd.CommandText = txtSQL;
+
+                tableCmd.Parameters.AddWithValue("@0", likedItems[0].category);
+                tableCmd.Parameters.AddWithValue("@1", likedItems[0].title);
+                tableCmd.Parameters.AddWithValue("@2", likedItems[0].price);
+                tableCmd.Parameters.AddWithValue("@3", likedItems[0].description);
+                tableCmd.Parameters.AddWithValue("@4", likedItems[0].image);
+                tableCmd.Parameters.AddWithValue("@5", likedItems[0].ProductID);
+
+
+                try
+                {
+                    tableCmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            likedItems = likedItems;
+            return Redirect("https://localhost:7296/home");
+        }
 
     }
-
 
 }
 
