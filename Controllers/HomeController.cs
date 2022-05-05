@@ -77,6 +77,12 @@ public class HomeController : Controller
         var userItemList = GetUserItems();
         return View(userItemList);
     }
+    public IActionResult LikedByUser()
+    {
+        ViewBag.user = userLoggedIn;
+        var userLikedItems = GetUserLikedItems();
+        return View(userLikedItems);
+    }
 
 
 
@@ -468,6 +474,51 @@ public class HomeController : Controller
             }
             likedItems = likedItems;
             return Redirect("https://localhost:7296/home");
+        }
+
+    }
+    internal ItemViewModel GetUserLikedItems()
+    {
+        List<ItemModel> userLikedItems = new();
+        using (SqliteConnection con =
+        new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "SELECT * FROM " + userLoggedIn;
+                using (var reader = tableCmd.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            userLikedItems.Add(
+                                new ItemModel
+                                {
+                                    category = reader.GetString(0),
+                                    title = reader.GetString(1),
+                                    price = reader.GetInt32(2),
+                                    description = reader.GetString(3),
+                                    image = reader.GetString(4),
+                                    ProductID = reader.GetInt32(5)
+
+                                });
+                        }
+                    }
+                    else
+                    {
+                        return new ItemViewModel
+                        {
+                            userLikedItems = userLikedItems
+                        };
+                    }
+                };
+                return new ItemViewModel
+                {
+                    userLikedItems = userLikedItems
+                };
+            }
         }
 
     }

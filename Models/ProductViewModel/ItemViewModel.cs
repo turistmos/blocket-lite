@@ -8,4 +8,5 @@ public class ItemViewModel
     public ItemModel Item {get; set;}
     public List<ItemModel> userItemList { get; set; }
     public List<ItemModel> likedItems{ get; set; }
+    public List<ItemModel> userLikedItems { get; set; }
 }
