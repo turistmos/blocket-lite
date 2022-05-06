@@ -13,6 +13,7 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     public static string filter;
+    public static List<ItemModel> list;
     public static string userLoggedIn;
     public HomeController(ILogger<HomeController> logger)
     {
@@ -65,7 +66,6 @@ public class HomeController : Controller
         return View();
         ViewBag.user = userLoggedIn;
     }
-
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -210,7 +210,7 @@ public class HomeController : Controller
 
         return new ItemViewModel
         {
-            ItemList = itemList
+
         };
     }
     //sparar ned ett hashat lösen till databasen
@@ -252,7 +252,7 @@ public class HomeController : Controller
                 catch (Exception ex)
                 {
 
-                    Console.WriteLine(ex.Message);
+    Console.WriteLine(ex.Message);
                 }
             }
         }
@@ -286,7 +286,7 @@ public class HomeController : Controller
                                     salt = reader.GetString(2)
                                 });
                         }
-                    }
+                   }
                 };
             }
         }
@@ -297,7 +297,7 @@ public class HomeController : Controller
             if (userLogin.username == userList[i].username)
             {
                 //omvandlar pswd login-fältet till en hash
-                byte[] data = Encoding.ASCII.GetBytes(userLogin.password + userList[i].salt);
+        byte[] data = Encoding.ASCII.GetBytes(userLogin.password + userList[i].salt);
                 data = new SHA256Managed().ComputeHash(data);
                 String hash = Encoding.ASCII.GetString(data);
 
@@ -312,6 +312,7 @@ public class HomeController : Controller
         return Redirect("https://localhost:7296/home/");
     }
 
+    
 
 
 }
