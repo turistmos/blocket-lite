@@ -124,8 +124,11 @@ public class HomeController : Controller
                 {
                     using (var tableCmd = con.CreateCommand())
                     {
-                        string txtSQL = "INSERT INTO products3 (category,title,price,description,image,gender,size,color) VALUES (@0,@1,@2,@3,@4,@5,@6,@7)";
+                        string txtSQL = "INSERT INTO products4 (category,title,price,description,image,gender,size,color,username) VALUES (@0,@1,@2,@3,@4,@5,@6,@7,@8)";
                         con.Open();
+
+                        tableCmd.CommandText = txtSQL;
+
                         tableCmd.Parameters.AddWithValue("@0", product.category);
                         tableCmd.Parameters.AddWithValue("@1", product.title);
                         tableCmd.Parameters.AddWithValue("@2", product.price);
@@ -134,6 +137,7 @@ public class HomeController : Controller
                         tableCmd.Parameters.AddWithValue("@5", product.gender);
                         tableCmd.Parameters.AddWithValue("@6", product.size);
                         tableCmd.Parameters.AddWithValue("@7", product.color);
+                        tableCmd.Parameters.AddWithValue("@8", userLoggedIn);
 
 
                         try
