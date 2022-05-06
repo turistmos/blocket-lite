@@ -21,11 +21,10 @@
             <div class="row">
     @foreach (var t in Model.ItemList)
     {
-        
                 <div class="col-sm">
                     <div class="card" style="width: 25rem;">
                         <div class="img-klass">
-                        <img class="card-img-top" src="@t.image" alt="Card image cap">
+                        <img class="card-img-top" src="@t.image" alt="Card image cap" style="max-height: 15rem;">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">@t.title</h5>
@@ -35,11 +34,9 @@
                             asp-route-id="@t.ProductID">
                                 <button type="submit">Gilla</button>
                             </form>
-
                         </div>
                     </div>
                 </div>
-            
     }
     </div>
     </div>
