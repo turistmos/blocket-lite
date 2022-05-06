@@ -3,7 +3,7 @@
 <tbody>
     
     @* skriver ut alla items från sql-databas *@
-    <div class="knappdiv">
+    <div class="knappdiv container">
         <form method="post" asp-action="Show_all" asp-controller="Home">
             <input type="submit" id="form-button" value="Visa allt" class="knapp" />
         </form>
@@ -32,8 +32,9 @@
                             <p class="card-text">@t.description</p>
                             <form method="post" asp-action="itemsLikedByUser" asp-controller="Home"
                             asp-route-id="@t.ProductID">
-                                <button type="submit">Gilla</button>
+                                <button class="btn btn-outline-danger" type="submit">Gilla</button>
                             </form>
+                             <button class="btn btn-outline-primary" type="submit">Köp</button>
                         </div>
                     </div>
                 </div>
