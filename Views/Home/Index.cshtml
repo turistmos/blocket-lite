@@ -1,39 +1,46 @@
 ﻿@model ItemViewModel
 
- <tbody>
-                    @* skriver ut alla items från sql-databas *@
-                <div class="btn-group">
-                    <form method="post" asp-action="Show_all" asp-controller="Home">
-                        <input type="submit"  id="form-button" value="Visa allt" class="btn-btn-primary" />
-                    </form>
-                    <form method="post" asp-action="Show_clothes" asp-controller="Home">
-                        <input type="submit"  id="form-button" value="Visa kläder" class="btn-btn-primary" />
-                    </form>
-                    <form method="post" asp-action="Show_vehicles" asp-controller="Home">
-                        <input type="submit"  id="form-button" value="Visa bilar" class="btn-btn-primary" />
-                    </form>
+<tbody>
+    
+    @* skriver ut alla items från sql-databas *@
+    <div class="knappdiv">
+        <form method="post" asp-action="Show_all" asp-controller="Home">
+            <input type="submit" id="form-button" value="Visa allt" class="knapp" />
+        </form>
+        <form method="post" asp-action="Show_clothes" asp-controller="Home">
+            <input type="submit" id="form-button" value="Visa kläder" class="knapp" />
+        </form>
+        <form method="post" asp-action="Show_vehicles" asp-controller="Home">
+            <input type="submit" id="form-button" value="Visa bilar" class="knapp" />
+        </form>
+    </div>
+
+
+
+<div class="container">
+            <div class="row">
+    @foreach (var t in Model.ItemList)
+    {
+        
+                <div class="col-sm">
+                    <div class="card" style="width: 25rem;">
+                        <div class="img-klass">
+                        <img class="card-img-top" src="@t.image" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@t.title</h5>
+                            <h1>@t.price kr</h1>
+                            <p class="card-text">@t.description</p>
+                            <form method="post" asp-action="itemsLikedByUser" asp-controller="Home"
+                            asp-route-id="@t.ProductID">
+                                <button type="submit">Gilla</button>
+                            </form>
+
+                        </div>
+                    </div>
                 </div>
-
-                
-
-                
-                @foreach (var t in Model.ItemList)
-                {  
-                            <div class="card" style="width: 25rem;">
-                                <img class="card-img-top" src="@t.image" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">@t.title</h5>
-                                    <h1>@t.price kr</h1>
-                                    <p class="card-text">@t.description</p>
-                                   <form  method="post" asp-action="itemsLikedByUser" asp-controller="Home" asp-route-id="@t.ProductID">
-                                        <button type="submit">Gilla</button>
-                                   </form>
-                                
-                                </div>
-                            </div>
-                }
-            </tbody>
-
-
-
-
+            
+    }
+    </div>
+    </div>
+</tbody>

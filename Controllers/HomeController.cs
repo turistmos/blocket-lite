@@ -210,7 +210,7 @@ public class HomeController : Controller
                                     description = reader.GetString(3),
                                     image = reader.GetString(9),
                                     ProductID = reader.GetInt32(11)
-                                    
+
                                 });
                         }
                     }
@@ -252,7 +252,7 @@ public class HomeController : Controller
         {
             using (var tableCmd = con.CreateCommand())
             {
-                
+
                 con.Open();
 
 
@@ -286,7 +286,7 @@ public class HomeController : Controller
                 tableCmd.CommandText = "CREATE TABLE " + user.username + "(category TEXT, title TEXT, price INTEGER, description TEXT,image TEXT, ProductID INTEGER);";
 
                 try
-                { 
+                {
                     tableCmd.ExecuteNonQuery();
                 }
                 catch (Exception ex)
@@ -297,13 +297,13 @@ public class HomeController : Controller
             }
         }
 
-        
+
         return Redirect("https://localhost:7296/home");
     }
     //Jämför användarna i databasen med i
     public RedirectResult UserLogin(UsersModel userLogin)
     {
-        userLoggedIn = userLogin.username;
+
         List<UsersModel> userList = new();
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
@@ -344,6 +344,7 @@ public class HomeController : Controller
 
                 if (userList[i].password == hash)
                 {
+                    userLoggedIn = userLogin.username;
                     return Redirect("https://localhost:7296/home/userLoginSuccess");
                 }
 
@@ -362,7 +363,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "SELECT * FROM products4 WHERE username ='"+ userLoggedIn+"'";
+                tableCmd.CommandText = "SELECT * FROM products4 WHERE username ='" + userLoggedIn + "'";
                 using (var reader = tableCmd.ExecuteReader())
                 {
                     if (reader.HasRows)
@@ -390,10 +391,10 @@ public class HomeController : Controller
                         };
                     }
                 };
-                 return new ItemViewModel
-                 {
-                            userItemList = userItemList
-                 };
+                return new ItemViewModel
+                {
+                    userItemList = userItemList
+                };
             }
 
         }
@@ -435,10 +436,10 @@ public class HomeController : Controller
                         return Redirect("https://localhost:7296/home");
                     }
                 };
-                
-                
-                 
-                
+
+
+
+
             }
 
         }
@@ -447,7 +448,7 @@ public class HomeController : Controller
         {
             using (var tableCmd = con.CreateCommand())
             {
-                string txtSQL = "INSERT INTO "+ userLoggedIn+ " (category,title,price,description,image,ProductID) VALUES (@0,@1,@2,@3,@4,@5)";
+                string txtSQL = "INSERT INTO " + userLoggedIn + " (category,title,price,description,image,ProductID) VALUES (@0,@1,@2,@3,@4,@5)";
 
 
                 con.Open();
@@ -529,7 +530,7 @@ public class HomeController : Controller
                         userLikedItems = userLikedItems
                     };
                 }
-               
+
             }
         }
 
