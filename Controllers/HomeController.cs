@@ -5,6 +5,7 @@ using blocket_lite.Models;
 using blocket_lite.Models.ProductViewModel;
 using System.Security.Cryptography;
 using System.Text;
+using System.Collections.Generic;
 
 //1', '2', '3','4','5','6','7'); DELETE FROM products3 WHERE price='0'; --
 namespace blocket_lite.Controllers;
@@ -273,7 +274,7 @@ public class HomeController : Controller
                 }
             }
         }
-        //skapar ett nytt table för varje användare
+        //skapar ett nytt sql-table för varje användare
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
@@ -405,6 +406,7 @@ public class HomeController : Controller
     //lägger till items i tablet 
     public RedirectResult itemsLikedByUser(int id)
     {
+
         List<ItemModel> likedItems = new();
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
@@ -412,6 +414,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
+
                 tableCmd.CommandText = "SELECT * FROM products4 WHERE ProductID ='" + id + "'";
                 using (var reader = tableCmd.ExecuteReader())
                 {
@@ -419,6 +422,7 @@ public class HomeController : Controller
                     {
                         while (reader.Read())
                         {
+
                             likedItems.Add(
                                 new ItemModel
                                 {
@@ -429,11 +433,12 @@ public class HomeController : Controller
                                     image = reader.GetString(9),
                                     ProductID = reader.GetInt32(11)
                                 });
+
                         }
                     }
                     else
                     {
-                        return Redirect("https://localhost:7296/home");
+                        return Redirect("https://localhost:7296/Home/Index");
                     }
                 };
 
@@ -441,6 +446,36 @@ public class HomeController : Controller
 
 
             }
+
+        }
+        // Kolla om produkten redan är gillad.
+        using (SqliteConnection con =
+          new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'";
+
+
+                con.Open();
+
+                tableCmd.CommandText = txtSQL;
+                using (var reader = tableCmd.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+
+                        return Redirect("https://localhost:7296/Home/Index");
+                    }
+                    else
+                    {
+
+                    }
+
+                };
+
+            }
+            likedItems = likedItems;
 
         }
         using (SqliteConnection con =
@@ -474,7 +509,7 @@ public class HomeController : Controller
                 }
             }
             likedItems = likedItems;
-            return Redirect("https://localhost:7296/home");
+            return Redirect("https://localhost:7296/Home/Index");
         }
 
     }
@@ -534,6 +569,29 @@ public class HomeController : Controller
             }
         }
 
+    }
+    public RedirectResult itemsUnLikedByUser(int id)
+    {
+        using (SqliteConnection con =
+        new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + ";";
+
+                try
+                {
+                    tableCmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        return Redirect("https://localhost:7296/Home/LikedByUser");
     }
 
 }
