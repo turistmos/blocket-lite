@@ -1,3 +1,31 @@
 ﻿<Properties StartupConfiguration="{7F2594AC-9598-4174-97FC-17ACED4E4731}|Default">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="595" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="blocket-lite" expanded="True">
+            <Node name="blocket-lite" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.blocket-lite PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Controllers/HomeController.cs" relfile="Controllers/HomeController.cs" line="457" column="1" />
+      <Breakpoint file="/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/Controllers/HomeController.cs" relfile="Controllers/HomeController.cs" line="575" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
