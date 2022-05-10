@@ -1,25 +1,23 @@
 ﻿@model ItemViewModel
 
- <tbody>
-
-
-                
-                @foreach (var t in Model.userItemList)
-                {
-                            <div class="card" style="width: 25rem;">
-                                <img class="card-img-top" src="@t.image" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">@t.title</h5>
-                                <h1>@t.price kr</h1>
-                                <p class="card-text">@t.description</p>
-                            </div>
-                            </div>
-
-                }
-            </tbody>
+<tbody>
 
 
 
+    @foreach (var t in Model.userItemList)
+    {
+        <div class="card" style="width: 25rem;">
+            <img class="card-img-top" src="@t.image" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@t.title</h5>
+                <h1>@t.price kr</h1>
+                <p class="card-text">@t.description</p>
+                <form method="post" asp-action="deleteProduct" asp-controller="Home" asp-route-id="@t.ProductID">
+                    <button class="btn btn-outline-danger" type="submit">Ta bort</button>
 
+                </form>
+            </div>
+        </div>
 
-
+    }
+</tbody>
