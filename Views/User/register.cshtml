@@ -1,0 +1,18 @@
+﻿@model UsersModel
+
+<form method="post" asp-action="UserInsert" asp-controller="User">
+    <div>
+        <div class="form-group">
+            <label asp-for="username"></label>
+            <input asp-for="username" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="password"></label>
+            <input asp-for="password" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="submit" id="register-button" value="user-register" class="btn-btn-primary" />
+        </div>
+
+    </div>
+</form>

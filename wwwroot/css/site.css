@@ -1,0 +1,73 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.clothes_form {
+    display: none;
+}
+
+.vehicle_form {
+    display: none;
+}
+
+.forms_div {
+    display: none;
+}
+
+.submit_form {
+    display: none;
+}
+
+.form {
+    width: 30vw;
+    padding: 20px;
+    background-color: rgb(178, 210, 199);
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .form {
+        width: 90%;
+    }
+}
+
+.knapp {
+    border: #666;
+    border-style: groove;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    display: flex;
+}
+
+.knappdiv {
+    display: flex;
+    align-items: center;
+}
+
+.knapp:hover {
+    background-color: rgb(40, 232, 249);
+}
+
+.img-klass {
+    min-height: 15rem;
+    max-height: 15rem;
+    min-width: 25rem;
+    max-width: 25rem;
+}
