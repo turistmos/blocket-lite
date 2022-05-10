@@ -11,7 +11,7 @@ namespace blocket_lite.Controllers;
 
 public class UserController : Controller
 {
-
+    public static bool loggedIn = true;
     public IActionResult Login()
     {
         ViewBag.user = HomeController.userLoggedIn;
@@ -80,7 +80,7 @@ public class UserController : Controller
             }
         }
 
-        return Redirect("https://localhost:7296/home/");
+        return Redirect("https://localhost:7296/user/Login/");
     }
 
     // registrering:
@@ -152,6 +152,11 @@ public class UserController : Controller
         }
 
 
+        return Redirect("https://localhost:7296/home");
+    }
+    public RedirectResult loggOut()
+    {
+        HomeController.userLoggedIn = null;
         return Redirect("https://localhost:7296/home");
     }
 }

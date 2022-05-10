@@ -26,10 +26,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
                                 asp-action="AddNewProduct">Sälj produkt</a>
                         </li>
                         <li class="nav-item">
@@ -42,15 +38,22 @@
                         <li class="nav-item">
                             <p class="nav-link text-dark">@ViewBag.user</p>
                         </li>
-                        <li class="nav-item d-flex">
-                            <a class="nav-link text-dark " asp-area="" asp-controller="Home"
-                                asp-action="MyProducts">Mina
-                                produkter</a>
-                        </li>
-                        <li class="nav-item d-flex">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+
+                        @if (@ViewBag.user != null)
+                        {
+                            <li class="nav-item d-flex">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MyProducts">Mina
+                                    produkter</a>
+                            </li>
+                            <li class="nav-item d-flex ">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
                                 asp-action="LikedByUser">Gillade produkter</a>
-                        </li>
+                            </li>
+                            <li class="nav-item d-flex ">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="loggOut">Log
+                                    Out</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
