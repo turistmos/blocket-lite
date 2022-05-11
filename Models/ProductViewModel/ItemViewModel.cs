@@ -10,5 +10,6 @@ namespace blocket_lite.Models.ProductViewModel
         public List<ItemModel> userItemList { get; set; }
         public List<ItemModel> likedItems { get; set; }
         public List<ItemModel> userLikedItems { get; set; }
+        public List<ItemModel> addedToCartList { get; set; }
     }
 }

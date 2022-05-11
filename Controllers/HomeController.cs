@@ -72,6 +72,12 @@ public class HomeController : Controller
         var userLikedItems = GetUserLikedItems();
         return View(userLikedItems);
     }
+    public IActionResult UserCart()
+    {
+        ViewBag.user = userLoggedIn;
+        var userCartItems = GetUserCartItems();
+        return View(userCartItems);
+    }
 
 
 
@@ -319,7 +325,7 @@ public class HomeController : Controller
         {
             using (var tableCmd = con.CreateCommand())
             {
-                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'";
+                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'AND CART = '0'";
 
 
                 con.Open();
@@ -388,7 +394,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "SELECT * FROM " + userLoggedIn;
+                tableCmd.CommandText = "SELECT * FROM " + userLoggedIn + " WHERE Cart ='0'";
                 try
                 {
                     using (var reader = tableCmd.ExecuteReader())
@@ -444,7 +450,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + ";";
+                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + "AND CART = '0'";
 
                 try
                 {
@@ -503,13 +509,13 @@ public class HomeController : Controller
             }
 
         }
-        // Kolla om produkten redan är gillad.
+        // Kolla om produkten redan är tillagd i kundkorgen
         using (SqliteConnection con =
           new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
-                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'";
+                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "' AND CART = '1'";
 
 
                 con.Open();
@@ -564,11 +570,71 @@ public class HomeController : Controller
                     Console.WriteLine(ex.Message);
                 }
             }
+
             addedToCartList = addedToCartList;
             return Redirect("https://localhost:7296/Home/Index");
         }
 
     }
+    internal ItemViewModel GetUserCartItems()
+    {
+        List<ItemModel> addedToCartList = new();
+        using (SqliteConnection con =
+        new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "SELECT * FROM " + userLoggedIn + " WHERE Cart ='1'";
+                try
+                {
+                    using (var reader = tableCmd.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                addedToCartList.Add(
+                                    new ItemModel
+                                    {
+                                        category = reader.GetString(0),
+                                        title = reader.GetString(1),
+                                        price = reader.GetInt32(2),
+                                        description = reader.GetString(3),
+                                        image = reader.GetString(4),
+                                        ProductID = reader.GetInt32(5)
+
+                                    });
+                            }
+                        }
+                        else
+                        {
+                            return new ItemViewModel
+                            {
+                                addedToCartList = addedToCartList
+                            };
+                        }
+                    };
+                    return new ItemViewModel
+                    {
+                        addedToCartList = addedToCartList
+                    };
+
+                }
+                catch
+                {
+                    return new ItemViewModel
+                    {
+                        addedToCartList = addedToCartList
+                    };
+                }
+
+            }
+        }
+
+    }
+
+
 
 }
 
