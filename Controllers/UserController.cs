@@ -8,15 +8,22 @@ using System.Text;
 using System.Collections.Generic;
 using System;
 
-namespace blocket_lite.Controllers {
+namespace blocket_lite.Controllers
+{
 
     public class UserController : Controller
     {
 
+        public static bool loggedIn = true;
         public IActionResult Login()
         {
             ViewBag.user = HomeController.userLoggedIn;
             return View();
+        }
+        public RedirectResult loggOut()
+        {
+            HomeController.userLoggedIn = null;
+            return Redirect("https://localhost:7296/home");
         }
 
         public IActionResult userLoginSuccess()
