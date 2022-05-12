@@ -450,7 +450,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + "AND CART = '0'";
+                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + " AND CART = '0'";
 
                 try
                 {
@@ -632,6 +632,30 @@ public class HomeController : Controller
             }
         }
 
+    }
+
+    public RedirectResult itemsDeletedFromCart(int id)
+    {
+        using (SqliteConnection con =
+        new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + " AND CART = '0'";
+
+                try
+                {
+                    tableCmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        return Redirect("https://localhost:7296/Home/UserCart");
     }
 
 

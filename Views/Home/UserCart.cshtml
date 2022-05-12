@@ -8,11 +8,14 @@
                 {
                             <div class="card" style="width: 25rem;">
                                 <img class="card-img-top" src="@t.image" alt="Card image cap">
-                            <div class="card-body">
+                                <div class="card-body">
                                 <h5 class="card-title">@t.title</h5>
                                 <h1>@t.price kr</h1>
                                 <p class="card-text">@t.description</p>
-                            </div>
+                                 </div>
+                                 <form method="post" asp-action="itemsDeletedFromCart" asp-controller="Home" asp-route-id="@t.ProductID">
+                                 <button class="btn btn-outline-danger" type="submit">delete</button>
+                                 </form>
                             </div>
 
                 }
