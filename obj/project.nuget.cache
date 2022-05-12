@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "PAAD8Pdkg1bLiFbYnqYC7hPvA+/rvZdXbgUtGZd6mO1RGuLoqZnt/oS36EwJAOLKuMJw28YHR5GNxJgG7xk9Hg==",
   "success": true,
   "projectFilePath": "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/blocket-lite.csproj",
@@ -11,6 +12,19 @@
     "/Users/fredrikalm/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
     "/Users/fredrikalm/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
     "/Users/fredrikalm/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+=======
+  "dgSpecHash": "/a29KHXfJ6hPDLK0R0ehzIIuc2I/wo+fQWIvTqY4W5HYyCokZOh+gToUCABX60fh7ApiZbSR+8Sq32/64ccINQ==",
+  "success": true,
+  "projectFilePath": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite-master\\blocket-lite-master\\blocket-lite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kalle\\.nuget\\packages\\microsoft.data.sqlite\\6.0.4\\microsoft.data.sqlite.6.0.4.nupkg.sha512",
+    "C:\\Users\\Kalle\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
+    "C:\\Users\\Kalle\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Kalle\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\Kalle\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Kalle\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Kalle\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
   ],
   "logs": []
 }

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/fredrikalm/Projects/Lia 1/blocket-lite-Ny/blocket-lite/blocket-lite.csproj": {}
   },
   "projects": {
@@ -15,11 +16,32 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fredrikalm/.nuget/NuGet/NuGet.Config"
+=======
+    "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite-master\\blocket-lite-master\\blocket-lite.csproj": {}
+  },
+  "projects": {
+    "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite-master\\blocket-lite-master\\blocket-lite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite-master\\blocket-lite-master\\blocket-lite.csproj",
+        "projectName": "blocket-lite",
+        "projectPath": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite-master\\blocket-lite-master\\blocket-lite.csproj",
+        "packagesPath": "C:\\Users\\Kalle\\.nuget\\packages\\",
+        "outputPath": "B:\\TUC\\LIA 1\\blocket nyaste nya\\blocket-lite-master\\blocket-lite-master\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kalle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+<<<<<<< HEAD
+=======
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +87,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
         }
       }
     }

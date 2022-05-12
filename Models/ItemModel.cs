@@ -20,6 +20,11 @@ namespace blocket_lite.Models
             public string username { get; set; }
 
             public int ProductID { get; set; }
+<<<<<<< HEAD
+=======
+            
+            public int Cart { get; set; }
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
 
 

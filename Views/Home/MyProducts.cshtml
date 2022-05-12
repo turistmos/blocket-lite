@@ -1,5 +1,6 @@
 ﻿@model ItemViewModel
 
+<<<<<<< HEAD
 <tbody>
 
 
@@ -21,3 +22,28 @@
 
     }
 </tbody>
+=======
+ <tbody>
+
+
+                
+                @foreach (var t in Model.userItemList)
+                {
+                            <div class="card" style="width: 25rem;">
+                                <img class="card-img-top" src="@t.image" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">@t.title</h5>
+                                <h1>@t.price kr</h1>
+                                <p class="card-text">@t.description</p>
+                            </div>
+                            </div>
+
+                }
+            </tbody>
+
+
+
+
+
+
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273

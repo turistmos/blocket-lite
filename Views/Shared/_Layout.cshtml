@@ -26,6 +26,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+<<<<<<< HEAD
                                 asp-action="AddNewProduct">Sälj produkt</a>
                         </li>
                         @if (@ViewBag.user == null)
@@ -34,6 +35,17 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Login">Login</a>
                             </li>
                         }
+=======
+                                asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="AddNewProduct">Sälj produkt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Login">Login</a>
+                        </li>
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="User"
                                 asp-action="Register">Register</a>
@@ -41,6 +53,7 @@
                         <li class="nav-item">
                             <p class="nav-link text-dark">@ViewBag.user</p>
                         </li>
+<<<<<<< HEAD
 
                         @if (@ViewBag.user != null)
                         {
@@ -57,6 +70,17 @@
                                     Out</a>
                             </li>
                         }
+=======
+                        <li class="nav-item d-flex">
+                            <a class="nav-link text-dark " asp-area="" asp-controller="Home"
+                                asp-action="MyProducts">Mina
+                                produkter</a>
+                        </li>
+                        <li class="nav-item d-flex">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="LikedByUser">Gillade produkter</a>
+                        </li>
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
                     </ul>
                 </div>
             </div>

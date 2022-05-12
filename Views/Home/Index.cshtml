@@ -31,8 +31,17 @@
                             <h1>@t.price kr</h1>
                             <p class="card-text">@t.description</p>
                             <form method="post" asp-action="itemsLikedByUser" asp-controller="Home"
+<<<<<<< HEAD
                             asp-route-id="@t.ProductID">
                                 <button class="btn btn-outline-danger" type="submit">Gilla</button> <button class="btn btn-outline-primary" type="submit">Köp</button>
+=======
+                                asp-route-id="@t.ProductID">
+                                <button class="btn btn-outline-danger" type="submit">Gilla</button> 
+                            </form>
+                            <form method="post" asp-action="addToCart" asp-controller="Home"
+                                asp-route-id="@t.ProductID">
+                                <button class="btn btn-outline-primary" type="submit">Köp</button>
+>>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
                             </form>
                             
                         </div>
