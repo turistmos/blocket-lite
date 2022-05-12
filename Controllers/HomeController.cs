@@ -6,19 +6,12 @@ using blocket_lite.Models.ProductViewModel;
 using System.Security.Cryptography;
 using System.Text;
 using System.Collections.Generic;
-<<<<<<< HEAD
-=======
 using Microsoft.Extensions.Logging;
 using System;
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
 //1', '2', '3','4','5','6','7'); DELETE FROM products3 WHERE price='0'; --
 namespace blocket_lite.Controllers;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -78,15 +71,12 @@ public class HomeController : Controller
         var userLikedItems = GetUserLikedItems();
         return View(userLikedItems);
     }
-<<<<<<< HEAD
-=======
     public IActionResult UserCart()
     {
         ViewBag.user = userLoggedIn;
         var userCartItems = GetUserCartItems();
         return View(userCartItems);
     }
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
 
 
@@ -334,11 +324,7 @@ public class HomeController : Controller
         {
             using (var tableCmd = con.CreateCommand())
             {
-<<<<<<< HEAD
-                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'";
-=======
                 string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'AND CART = '0'";
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
 
                 con.Open();
@@ -367,11 +353,7 @@ public class HomeController : Controller
         {
             using (var tableCmd = con.CreateCommand())
             {
-<<<<<<< HEAD
-                string txtSQL = "INSERT INTO " + userLoggedIn + " (category,title,price,description,image,ProductID) VALUES (@0,@1,@2,@3,@4,@5)";
-=======
                 string txtSQL = "INSERT INTO " + userLoggedIn + " (category,title,price,description,image,ProductID,Cart) VALUES (@0,@1,@2,@3,@4,@5,@6)";
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
 
                 con.Open();
@@ -384,10 +366,7 @@ public class HomeController : Controller
                 tableCmd.Parameters.AddWithValue("@3", likedItems[0].description);
                 tableCmd.Parameters.AddWithValue("@4", likedItems[0].image);
                 tableCmd.Parameters.AddWithValue("@5", likedItems[0].ProductID);
-<<<<<<< HEAD
-=======
                 tableCmd.Parameters.AddWithValue("@6", 0);
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
 
                 try
@@ -414,11 +393,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-<<<<<<< HEAD
-                tableCmd.CommandText = "SELECT * FROM " + userLoggedIn;
-=======
                 tableCmd.CommandText = "SELECT * FROM " + userLoggedIn + " WHERE Cart ='0'";
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
                 try
                 {
                     using (var reader = tableCmd.ExecuteReader())
@@ -474,11 +449,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-<<<<<<< HEAD
-                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + ";";
-=======
                 tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + " AND CART = '0'";
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
                 try
                 {
@@ -493,24 +464,16 @@ public class HomeController : Controller
         }
         return Redirect("https://localhost:7296/Home/LikedByUser");
     }
-<<<<<<< HEAD
-    public RedirectResult deleteProduct(int id)
-    {
-=======
 
     public RedirectResult addToCart(int id)
     {
         List<ItemModel> addedToCartList = new();
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-<<<<<<< HEAD
-                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + ";";
-=======
 
                 tableCmd.CommandText = "SELECT * FROM products4 WHERE ProductID ='" + id + "'";
                 using (var reader = tableCmd.ExecuteReader())
@@ -595,7 +558,6 @@ public class HomeController : Controller
                 tableCmd.Parameters.AddWithValue("@5", addedToCartList[0].ProductID);
                 tableCmd.Parameters.AddWithValue("@6", 1);
 
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
                 try
                 {
@@ -607,9 +569,6 @@ public class HomeController : Controller
                     Console.WriteLine(ex.Message);
                 }
             }
-<<<<<<< HEAD
-        }
-=======
 
             addedToCartList = addedToCartList;
             return Redirect("https://localhost:7296/Home/Index");
@@ -619,16 +578,12 @@ public class HomeController : Controller
     internal ItemViewModel GetUserCartItems()
     {
         List<ItemModel> addedToCartList = new();
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-<<<<<<< HEAD
-                tableCmd.CommandText = "DELETE FROM products4 WHERE productID= " + id + ";";
-=======
                 tableCmd.CommandText = "SELECT * FROM " + userLoggedIn + " WHERE Cart ='1'";
                 try
                 {
@@ -687,7 +642,6 @@ public class HomeController : Controller
             {
                 con.Open();
                 tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + " AND CART = '0'";
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 
                 try
                 {
@@ -700,16 +654,10 @@ public class HomeController : Controller
                 }
             }
         }
-<<<<<<< HEAD
-        return Redirect("https://localhost:7296/Home/LikedByUser");
-    }
-
-=======
         return Redirect("https://localhost:7296/Home/UserCart");
     }
 
 
 
->>>>>>> c297ae0fcb752dcd822bf4c24eb09f4717043273
 }
 
