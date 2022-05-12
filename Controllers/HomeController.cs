@@ -657,6 +657,48 @@ public class HomeController : Controller
         return Redirect("https://localhost:7296/Home/UserCart");
     }
 
+    public RedirectResult deleteProduct(int id)
+    {
+        using (SqliteConnection con =
+        new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id;
+
+                try
+                {
+                    tableCmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        using (SqliteConnection con =
+        new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "DELETE FROM products4 WHERE productID= " + id;
+
+                try
+                {
+                    tableCmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        return Redirect("https://localhost:7296/Home/");
+    }
 
 
 }
