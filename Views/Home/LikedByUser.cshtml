@@ -7,13 +7,16 @@
     @foreach (var t in Model.userLikedItems)
     {
         <div class="card" style="width: 25rem;">
-            <img class="card-img-top" src="@t.image" alt="Card image cap">
+            <img class="card-img-top" src="@t.image" alt="Card image cap" style="max-height: 15rem;">
             <div class="card-body">
                 <h5 class="card-title">@t.title</h5>
                 <h1>@t.price kr</h1>
                 <p class="card-text">@t.description</p>
                 <form method="post" asp-action="itemsUnLikedByUser" asp-controller="Home" asp-route-id="@t.ProductID">
                     <button class="btn btn-outline-danger" type="submit">Ogilla</button>
+                </form>
+                <form method="post" asp-action="addToCart" asp-controller="Home" asp-route-id="@t.ProductID">
+                    <button class="btn btn-outline-primary" type="submit">Köp</button>
                 </form>
             </div>
         </div>

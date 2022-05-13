@@ -277,7 +277,7 @@ public class HomeController : Controller
     public RedirectResult itemsLikedByUser(int id)
     {
 
-        List<ItemModel> likedItems = new();
+        List<CartModel> likedItems = new();
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
         {
@@ -294,14 +294,11 @@ public class HomeController : Controller
                         {
 
                             likedItems.Add(
-                                new ItemModel
+                                new CartModel
                                 {
-                                    category = reader.GetString(0),
-                                    title = reader.GetString(1),
-                                    price = reader.GetInt32(2),
-                                    description = reader.GetString(3),
-                                    image = reader.GetString(9),
-                                    ProductID = reader.GetInt32(11)
+                                    username = userLoggedIn,
+                                    ProductID = reader.GetInt32(11),
+                                    Cart = 0
                                 });
 
                         }
@@ -319,54 +316,50 @@ public class HomeController : Controller
 
         }
         // Kolla om produkten redan är gillad.
+        // using (SqliteConnection con =
+        //   new SqliteConnection("Data Source=db.sqlite"))
+        // {
+        //     using (var tableCmd = con.CreateCommand())
+        //     {
+        //         string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'AND CART = '0'";
+
+
+        //         con.Open();
+
+        //         tableCmd.CommandText = txtSQL;
+        //         using (var reader = tableCmd.ExecuteReader())
+        //         {
+        //             if (reader.HasRows)
+        //             {
+
+        //                 return Redirect("https://localhost:7296/Home/Index");
+        //             }
+        //             else
+        //             {
+
+        //             }
+
+        //         };
+
+        //     }
+        //     likedItems = likedItems;
+
+        // }
         using (SqliteConnection con =
           new SqliteConnection("Data Source=db.sqlite"))
         {
             using (var tableCmd = con.CreateCommand())
             {
-                string txtSQL = "SELECT * FROM " + userLoggedIn + " WHERE ProductID ='" + id + "'AND CART = '0'";
-
-
-                con.Open();
-
-                tableCmd.CommandText = txtSQL;
-                using (var reader = tableCmd.ExecuteReader())
-                {
-                    if (reader.HasRows)
-                    {
-
-                        return Redirect("https://localhost:7296/Home/Index");
-                    }
-                    else
-                    {
-
-                    }
-
-                };
-
-            }
-            likedItems = likedItems;
-
-        }
-        using (SqliteConnection con =
-          new SqliteConnection("Data Source=db.sqlite"))
-        {
-            using (var tableCmd = con.CreateCommand())
-            {
-                string txtSQL = "INSERT INTO " + userLoggedIn + " (category,title,price,description,image,ProductID,Cart) VALUES (@0,@1,@2,@3,@4,@5,@6)";
+                string txtSQL = "INSERT INTO LinkTable(Username,ProductID,Cart) VALUES (@0,@1,@2)";
 
 
                 con.Open();
 
                 tableCmd.CommandText = txtSQL;
 
-                tableCmd.Parameters.AddWithValue("@0", likedItems[0].category);
-                tableCmd.Parameters.AddWithValue("@1", likedItems[0].title);
-                tableCmd.Parameters.AddWithValue("@2", likedItems[0].price);
-                tableCmd.Parameters.AddWithValue("@3", likedItems[0].description);
-                tableCmd.Parameters.AddWithValue("@4", likedItems[0].image);
-                tableCmd.Parameters.AddWithValue("@5", likedItems[0].ProductID);
-                tableCmd.Parameters.AddWithValue("@6", 0);
+                tableCmd.Parameters.AddWithValue("@0", likedItems[0].username);
+                tableCmd.Parameters.AddWithValue("@1", likedItems[0].ProductID);
+                tableCmd.Parameters.AddWithValue("@2", likedItems[0].Cart);
 
 
                 try
@@ -386,6 +379,7 @@ public class HomeController : Controller
     }
     internal ItemViewModel GetUserLikedItems()
     {
+        //AND username = '" + userLoggedIn + "'
         List<ItemModel> userLikedItems = new();
         using (SqliteConnection con =
         new SqliteConnection("Data Source=db.sqlite"))
@@ -393,7 +387,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "SELECT * FROM " + userLoggedIn + " WHERE Cart ='0'";
+                tableCmd.CommandText = "SELECT products4.category,products4.title,products4.price,products4.description,products4.image,products4.ProductID FROM LinkTable INNER JOIN products4 ON LinkTable.ProductID = products4.ProductID WHERE LinkTable.Cart = 0 AND LinkTable.username = 'fredrik12' ";
                 try
                 {
                     using (var reader = tableCmd.ExecuteReader())
@@ -475,7 +469,7 @@ public class HomeController : Controller
             {
                 con.Open();
 
-                tableCmd.CommandText = "SELECT * FROM products4 WHERE ProductID ='" + id + "'";
+                tableCmd.CommandText = "SELECT products4.category,products4.title,products4.price,products4.description,products4.image,products4.ProductID FROM products4 WHERE ProductID ='" + id + "'";
                 using (var reader = tableCmd.ExecuteReader())
                 {
                     if (reader.HasRows)
@@ -490,8 +484,8 @@ public class HomeController : Controller
                                     title = reader.GetString(1),
                                     price = reader.GetInt32(2),
                                     description = reader.GetString(3),
-                                    image = reader.GetString(9),
-                                    ProductID = reader.GetInt32(11)
+                                    image = reader.GetString(4),
+                                    ProductID = reader.GetInt32(5)
                                 });
 
                         }
@@ -641,7 +635,7 @@ public class HomeController : Controller
             using (var tableCmd = con.CreateCommand())
             {
                 con.Open();
-                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + " AND CART = '0'";
+                tableCmd.CommandText = "DELETE FROM " + userLoggedIn + " WHERE productID= " + id + " AND CART = '1'";
 
                 try
                 {
