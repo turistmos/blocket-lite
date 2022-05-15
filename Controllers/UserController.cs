@@ -135,31 +135,6 @@ namespace blocket_lite.Controllers
                     }
                 }
             }
-            //skapar ett nytt sql-table för varje användare
-            using (SqliteConnection con =
-            new SqliteConnection("Data Source=db.sqlite"))
-            {
-                using (var tableCmd = con.CreateCommand())
-                {
-
-                    con.Open();
-
-
-                    tableCmd.CommandText = "CREATE TABLE " + user.username + "(category TEXT, title TEXT, price INTEGER, description TEXT,image TEXT, ProductID INTEGER, Cart INTEGER);";
-
-                    try
-                    {
-                        tableCmd.ExecuteNonQuery();
-                    }
-                    catch (Exception ex)
-                    {
-
-                        Console.WriteLine(ex.Message);
-                    }
-                }
-            }
-
-
             return Redirect("https://localhost:7296/home");
         }
     }
